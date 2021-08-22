@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #eff300;
+
+}
+.navpar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+h1 {
+   flex-basis: 20vw;
+   color: #3d4b69;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+h1 span {
+    color: rgb(214, 50, 0);
+}
+nav{
+    flex-basis: 40vw;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+ul {
+ color: #3d4b69;
+    line-height: 1.5em;
+    font-size: 15px;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+li {
+
+}
